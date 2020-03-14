@@ -38,7 +38,6 @@ function parseRottenTomatoesHTML(fileData) {
         rating: movieRating,
         title: movieTitie
       };
-      // console.log("this is the movieobj: ", movieObj);
       allTomatoData.top100[allTomatoData.top100.length] = movieObj;
     });
   }
@@ -108,7 +107,7 @@ requestRottenTomatoesHTML(function(error, data) {
         .style(style); // song title
     }
 
-    wb.write(`rottenTomatoesTop100${prevYear}.xlsx`);
+    wb.write(`rottenTomatoes${prevYear}Top100.xlsx`);
   } else {
     console.log(`some error occured`);
   }
