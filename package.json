@@ -18,5 +18,9 @@
   "bugs": {
     "url": "https://github.com/RijinLee/topMoviesFinder/issues"
   },
-  "homepage": "https://github.com/RijinLee/topMoviesFinder#readme"
+  "homepage": "https://github.com/RijinLee/topMoviesFinder#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "request": "^2.88.2"
+  }
 }
