@@ -74,6 +74,7 @@ requestRottenTomatoesHTML(function(error, data) {
     const xl = require("excel4node");
 
     //////////////Excel Code///////////////
+
     // Create a new instance of a Workbook class
     let wb = new xl.Workbook();
 
