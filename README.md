@@ -1,6 +1,9 @@
 # topMoviesFinder
 
-Finds the top 100 movies rated by Rotten Tomatoes, scrapes data, and lists them onto an excel spreadsheet.
+Finds the top 100 movies rated by Rotten Tomatoes, scrapes webpage data, and lists onto an excel spreadsheet.
+
+### Motivation
+
 I wanted to work with a module that allows me to scrape data from a website and write onto an excel file.
 
 Install needed dependencies using npm.
