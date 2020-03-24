@@ -22,4 +22,4 @@ The app will scrape rottentomatoes.com's top 100 rated movies from the previous 
 
 - excel4node - Write to excel file
 - request - HTTP calling
-- cheerio - jQuery functions and HTML parsing
+- cheerio - jQuery and HTML parsing
